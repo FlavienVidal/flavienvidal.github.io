@@ -24,10 +24,11 @@ author:
     Outside of École Polytechnique, I interned at Lydia in the Summer of 2021 to conduct their personal finance management project, and at Dailymotion in the Summer of 2022 to work on their video-to-video recommender system. I was also a Research Student at Idemia.
     </p>
   username: username # general username
-  github: github_username # github username
+  github: flavienvidal # github username
+  linkedin: flavienvidal
   twitter: twitter_username # twitter username
   facebook: facebook_username # facebook username
-  email: your-email@email.com # email adress
+  email: flavien.vidal@polytechnique.edu # email adress
   avatar: /assets/img/avatar_flavien.jpg # change with your own avatar
 
 # URL settings
