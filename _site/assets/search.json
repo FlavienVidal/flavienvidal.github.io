@@ -1,7 +1,7 @@
 [
   
     {
-      "title"    : "Welcome to Jekyll!",
+      "title"    : "FLAVIEN SEARCH Welcome to Jekyll!",
       "description" : "",
       "tags"     : "",
       "url"      : "/welcome-to-jekyll/",
@@ -9,7 +9,7 @@
     } ,
   
     {
-      "title"    : "Cara ribet memperbarui forked repo",
+      "title"    : "FLAVIEN SEARCH.jsonCara ribet memperbarui forked repo",
       "description" : "Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.",
       "tags"     : "tips, git, software",
       "url"      : "/cara-memperbarui-fork-repository/",
