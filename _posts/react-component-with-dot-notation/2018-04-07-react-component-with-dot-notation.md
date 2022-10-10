@@ -1,8 +1,8 @@
 ---
 title: React Component with Dot Notation
-flavien_url: <a href="https://flavien-vidal.medium.com" target="_blank" rel="noopener">Architecting World’s Largest (ongoing)</a> 
+flavien_url: <a href="https://flavien-vidal.medium.com" target="_blank" rel="noopener">All that Jazz (removed)</a> 
 
-date: 2022-10-25 23:04:00 +07:00
+date: 2019-10-25 23:04:00 +07:00
 tags: [javascript, react]
 description: Learn how to define a React component that is accessible through the dot notation. A common component pattern to show a parent-child relation.
 ---
