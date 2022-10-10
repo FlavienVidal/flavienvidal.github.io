@@ -17,7 +17,7 @@ author:
     Student at École Polytechnique in Computer Science and Machine Learning
     </p>
     <p>
-    flavien_url: <a href="https://flavienvidal.github.io/about/" target="_blank" rel="noopener">About me ></a>
+    <a href="https://flavienvidal.github.io/about/" target="_blank" rel="noopener">About me ></a>
     </p>
   username: username # general username
   github: flavienvidal # github username
