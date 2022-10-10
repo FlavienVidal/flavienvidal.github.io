@@ -1,6 +1,6 @@
 ---
 title: How this site was born 👶
-flavien_url: [github](https://medium.com/@flavien-vidal)
+flavien_url: <a href="http://medium.com/@flavien-vidal" target="_blank" rel="noopener">My link to medium</a> 
 date: 2018-09-28 09:45:47 +07:00
 modified: 2019-08-29 09:24:47 +07:00
 tags: [blog, netlify, jekyll, github]
