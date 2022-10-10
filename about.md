@@ -21,3 +21,5 @@ Outside of École Polytechnique, I interned at Lydia in the Summer of 2021 to co
 
 - {{ site.author.email }}
 - github.com/{{ site.author.github }}
+- github.com/{{ site.author.github }}
+- linkedin.com/in/{{ site.author.linkedin }}/.com
