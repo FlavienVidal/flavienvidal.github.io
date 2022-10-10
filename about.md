@@ -1,18 +1,23 @@
 ---
-title: Colophon
+title: About me
 permalink: /about/
 layout: page
 excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+<p>Greetings! 😀</p>
+<p>
+I am Flavien, a final year MSc student in computer science at École Polytechnique, where I mainly study topics related to machine learning such as natural language processing, computer vision and reinforcement learning. Beforehand, I graduated from the University of California Los Angeles where I specialized in data science.
+</p>
+<p>
+During my studies, I have worked on various projects among which pose estimation, human action recognition, face labelling, sentiment analysis or bandits for recommendation. My current research aims at mitigating the popularity bias in session-based recommendation used in the context of anonymous data, emphasizing the diversity, novelty and serendipity of the recommended videos as well as the coverage of the catalog.
+</p>
+<p>
+Outside of École Polytechnique, I interned at Lydia in the Summer of 2021 to conduct their personal finance management project, and at Dailymotion in the Summer of 2022 to work on their video-to-video recommender system. I was also a Research Student at Idemia.
+</p>
 
-If you have a question about him or else, just send a letter to him.
-
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
-
-**may u needs ✨**
+**Contact me at:**
 
 - {{ site.author.email }}
 - github.com/{{ site.author.github }}
