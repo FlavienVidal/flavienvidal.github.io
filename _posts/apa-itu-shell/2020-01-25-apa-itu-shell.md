@@ -1,6 +1,8 @@
 ---
 title: FLAVIEN 2020-01-25-apa-...What is a shell? 🐚 adalah kerang ajaib?
-date: 2020-01-25 11:58:47 +07:00
+flavien_url: <a href="https://flavien-vidal.medium.com/negative-sampling-vs-hierarchical-softmax-462d063dfca4" target="_blank" rel="noopener">Negative Sampling vs Hierarchical Softmax</a> 
+
+date: 2021-11-02 11:58:47 +07:00
 modified: 2020-02-02 16:49:47 +07:00
 tags: [unix/linux, cli]
 description: Shell adalah sebuah command-line interpreter; program yang berperan sebagai penerjemah perintah yang diinputkan oleh User yang melalui terminal, sehingga perintah tersebut bisa dimengerti oleh si Kernel.

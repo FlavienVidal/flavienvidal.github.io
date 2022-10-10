@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Cara ribet memperbarui forked repo
-date: 2020-01-29 01:00 +0700
+flavien_url: <a href="https://flavien-vidal.medium.com/exposition-and-interpretation-of-the-topology-of-neural-networks-f29938f6deb8" target="_blank" rel="noopener">Exposition and Interpretation of the Topology of Neural Networks</a>
+
+date: 2021-11-11 01:00 +0700
 modified: 2020-03-07 16:49:47 +07:00
 description: Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
 tag:

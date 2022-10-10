@@ -1,6 +1,8 @@
 ---
 title: Python Notes from Intro to Machine Learning
-date: 2018-04-14 10:00:00 +07:00
+flavien_url: <a href="https://flavien-vidal.medium.com/similarity-distances-for-natural-language-processing-16f63cd5ba55" target="_blank" rel="noopener">Similarity Distances for Natural Language Processing</a> 
+
+date: 2021-04-29 10:00:00 +07:00
 tags: [python, machine-learning]
 description: Notes and code snippets of Python that I've been collecting so far throughout the "Intro to Machine Learning" course.
 ---
