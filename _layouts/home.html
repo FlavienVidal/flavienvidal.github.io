@@ -13,13 +13,13 @@ home: true
 </article>
 {%- endfor -%}
 
-<br>
-<br>
+
 <br>
 <br>
 
+
 <h3 class="posts-item-note" aria-label="Recent Posts">Some of my projects</h3>
-{%- for project in site.posts limit: site.number_of_posts -%}
+{%- for project in site.projects limit: site.number_of_projects -%}
 <article class="post-item">
   <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
   <h4 class="post-item-title">
