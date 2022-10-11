@@ -39,6 +39,9 @@ fb_appid:
 collections:
   posts:
     output: true
+  projects:
+    output: true
+
 
 # Markdown settings
 markdown: kramdown
