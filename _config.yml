@@ -1,5 +1,5 @@
 # Site settings
-title: Klise Theme # site title
+title: Flavien Vidal # site title
 description: >- # site description
   He's writing in Bahasa about web technology and experience as a journal 
   for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
@@ -17,7 +17,8 @@ author:
     Student at École Polytechnique in Computer Science and Machine Learning
     </p>
     <p>
-    <a href="https://flavienvidal.github.io/about/" target="_blank" rel="noopener">About me ></a>
+    <a href="https://flavienvidal.github.io/about/" target="_blank">About me ></a>
+    <a href="Managing_Popularity_Bias_copy.pdf">Preference Mechanism for Long-Tail Recommendation</a>
     </p>
   username: username # general username
   github: flavienvidal # github username
