@@ -14,7 +14,8 @@ author:
   name: Flavien Vidal # author name
   bio: >- # tell to the world
     <p>
-    Student at École Polytechnique in Computer Science and Machine Learning
+    Data & Machine Learning Scientist at TripAdvisor</p>
+    Former Computer Science and Machine Learning student at École Polytechnique
     </p>
     <p>
     <a href="https://flavienvidal.github.io/about/">About me ></a>
@@ -25,7 +26,7 @@ author:
   medium: flavien-vidal
   twitter: twitter_username # twitter username
   facebook: facebook_username # facebook username
-  email: flavien.vidal@polytechnique.edu # email adress
+  email: flavienvalentin.vidal@gmail.com # email adress
   avatar: /assets/img/avatar_flavien.jpg # change with your own avatar
 
 # URL settings
