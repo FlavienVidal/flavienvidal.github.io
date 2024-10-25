@@ -1,6 +1,5 @@
 ---
 title: Did Paris Help Shape Jazz? A Curious Connection Across the Atlantic
-flavien_url: <a href="https://flavien-vidal.medium.com" target="_blank" rel="noopener">All that Jazz</a> 
 
 date: 2024-10-26 23:04:00 +07:00
 tags: [jazz, history, paris, music]
