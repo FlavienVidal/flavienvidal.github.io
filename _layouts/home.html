@@ -3,6 +3,32 @@ layout: default
 home: true
 ---
 
+<h3 class="posts-item-note" aria-label="Recent Posts">Some of my projects</h3>
+<!--
+{%- for project in site.projects limit: site.number_of_projects -%}
+<article class="post-item">
+  <span class="post-item-date">{{ project.date | date: "%b %d, %Y" }}</span>
+  <h4 class="post-item-title">
+    <a href="{{ post.url }}">{{ project.flavien_url }}</a>
+  </h4>
+</article>
+{%- endfor -%}
+-->
+{%- assign sorted_projects = site.projects | sort: 'date' | reverse -%}
+{%- for project in sorted_projects limit: site.number_of_projects -%}
+<article class="post-item">
+  <span class="post-item-date">{{ project.date | date: "%b %d, %Y" }}</span>
+  <h4 class="post-item-title">
+    <a href="{{ project.url }}">{{ project.flavien_url }}</a>
+  </h4>
+</article>
+{%- endfor -%}
+
+
+<br>
+<br>
+
+
 <h3 class="posts-item-note" aria-label="Recent Posts">Some of my articles</h3>
 {%- for post in site.posts limit: site.number_of_posts -%}
 <article class="post-item">
@@ -14,18 +40,5 @@ home: true
 {%- endfor -%}
 
 
-<br>
-<br>
-
-
-<h3 class="posts-item-note" aria-label="Recent Posts">Some of my projects</h3>
-{%- for project in site.projects limit: site.number_of_projects -%}
-<article class="post-item">
-  <span class="post-item-date">{{ project.date | date: "%b %d, %Y" }}</span>
-  <h4 class="post-item-title">
-    <a href="{{ post.url }}">{{ project.flavien_url }}</a>
-  </h4>
-</article>
-{%- endfor -%}
 
 <!--<a href="newsletter_01.pdf" target="_blank">Read more</a>//-->
