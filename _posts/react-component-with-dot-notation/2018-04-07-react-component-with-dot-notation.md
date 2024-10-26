@@ -7,7 +7,7 @@ description: Exploring the surprising connection between Paris and the birth of 
 ---
 
 <figure>
-<img src="/did-paris-help-shape-jazz/blue-note-jazzmen-yellowkorner.jpg" alt="blue note jazzmen">
+<img src="/react-component-with-dot-notation/blue-note-jazzmen-yellowkorner.jpg" alt="blue note jazzmen">
 <figcaption>Fig 1. blue note jazzmen.</figcaption>
 </figure>
 
@@ -24,14 +24,14 @@ This dance, full of joy and liberation, quickly became popular throughout France
 Fast forward to 1900, in a brothel in Storyville, New Orleans, where a pianist plays a lively version of the cakewalk. The tune? It might remind you of Scott Joplin's *The Entertainer*. This blend of African and European influences, born out of the improvisational spirit, found fertile ground in the vibrant nightlife of Storyville, giving birth to a new style of music.
 
 <figure>
-<img src="/did-paris-help-shape-jazz/from_jass_to_jazz.png" alt="from jass to jazz">
+<img src="/react-component-with-dot-notationzz/from_jass_to_jazz.png" alt="from jass to jazz">
 <figcaption>Fig 2. from jass to jazz.</figcaption>
 </figure>
 
 But there's more to the story. As these musical influences spread through the brothels of Storyville, a new word entered the scene: *jazz*. According to one story, the term may have originated from the perfume that women in the brothels used—Jasmine. They would sing out, “Jaaaaasmine, Jaaaasmine,” to attract clients, and the word stuck. In fact, early records even labeled this music as “Jas Band” or “Jass Band.” Eventually, the "s" was replaced by a "z" to avoid cheeky graffiti artists who would alter the posters to read “ass music.” And so, the music and the name evolved together.
 
 <figure>
-<img src="/did-paris-help-shape-jazz/new_orleans_storyville.png" alt="Storyville (New Orleans)">
+<img src="/react-component-with-dot-notation/new_orleans_storyville.png" alt="Storyville (New Orleans)">
 <figcaption>Fig 3. Storyville (New Orleans).</figcaption>
 </figure>
 
