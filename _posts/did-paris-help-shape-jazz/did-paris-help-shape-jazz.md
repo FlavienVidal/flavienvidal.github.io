@@ -6,7 +6,10 @@ tags: [jazz, history, paris, music]
 description: Exploring the surprising connection between Paris and the birth of jazz in New Orleans.
 ---
 
-**Did Paris Help Shape Jazz? A Curious Connection Across the Atlantic**
+<figure>
+<img src="/did-paris-help-shape-jazz/blue-note-jazzmen-yellowkorner.jpg" alt="blue note jazzmen">
+<figcaption>Fig 1. blue note jazzmen.</figcaption>
+</figure>
 
 I grew up in Paris, a city that shaped me in so many ways. At the same time, I’ve always been drawn to the spirit of jazz—especially New Orleans jazz and cool jazz. So, naturally, I found myself wondering: could there be a link between jazz and Paris? It turns out, there just might be! Paris could have played a surprising role in what eventually became jazz in New Orleans.
 
@@ -20,7 +23,17 @@ This dance, full of joy and liberation, quickly became popular throughout France
 
 Fast forward to 1900, in a brothel in Storyville, New Orleans, where a pianist plays a lively version of the cakewalk. The tune? It might remind you of Scott Joplin's *The Entertainer*. This blend of African and European influences, born out of the improvisational spirit, found fertile ground in the vibrant nightlife of Storyville, giving birth to a new style of music.
 
+<figure>
+<img src="/did-paris-help-shape-jazz/from_jass_to_jazz.png" alt="from jass to jazz">
+<figcaption>Fig 2. from jass to jazz.</figcaption>
+</figure>
+
 But there's more to the story. As these musical influences spread through the brothels of Storyville, a new word entered the scene: *jazz*. According to one story, the term may have originated from the perfume that women in the brothels used—Jasmine. They would sing out, “Jaaaaasmine, Jaaaasmine,” to attract clients, and the word stuck. In fact, early records even labeled this music as “Jas Band” or “Jass Band.” Eventually, the "s" was replaced by a "z" to avoid cheeky graffiti artists who would alter the posters to read “ass music.” And so, the music and the name evolved together.
+
+<figure>
+<img src="/did-paris-help-shape-jazz/new_orleans_storyville.png" alt="Storyville (New Orleans)">
+<figcaption>Fig 3. Storyville (New Orleans).</figcaption>
+</figure>
 
 Could Paris and its dance of liberation have played a role in shaping the early rhythms and spirit of jazz? It’s possible! The transatlantic journey of music is full of unexpected twists, and this one might just connect the City of Light with the soulful sounds of New Orleans.
 
