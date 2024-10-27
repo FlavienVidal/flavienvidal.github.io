@@ -153,7 +153,7 @@
 <p>Ketika kita menginputkan suatu perintah pada terminal emulator, kernel tidak langsung mengerti perintah yang kita ketik, kita membutuhkan suatu interface sebagai perantara menuju kernel yaitu <strong>Shell</strong>.</p>
 
 <figure>
-<img src="/apa-itu-shell/shell.png" alt="shell" />
+<img src="/apa-itu-shell/new_orleans_storyville.png" alt="shell" />
 <figcaption>Fig 3. bagan komunikasi shell.</figcaption>
 </figure>
 
