@@ -1,5 +1,5 @@
 ---
-title: Did Paris Help Shape Jazz? A Curious Connection Across the Atlantic
+title: TEST Did Paris Help Shape Jazz? A Curious Connection Across the Atlantic
 
 date: 2024-09-26 23:04:00 +07:00
 tags: [jazz, history, paris, music]
