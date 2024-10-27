@@ -1,7 +1,7 @@
 ---
 title: Did Paris Help Shape Jazz? A Curious Connection Across the Atlantic
 
-date: 2024-09-26 23:04:00 +07:00
+date: 2018-09-26 23:04:00 +07:00
 tags: [jazz, history, paris, music]
 description: Exploring the surprising connection between Paris and the birth of jazz in New Orleans.
 ---

@@ -1,123 +1,41 @@
 ---
-title: FLAVIEN 2020-01-25-apa-...What is a shell? 🐚 adalah kerang ajaib?
-flavien_url: <a href="https://flavien-vidal.medium.com/negative-sampling-vs-hierarchical-softmax-462d063dfca4" target="_blank" rel="noopener">Negative Sampling vs Hierarchical Softmax</a> 
+title: Did Paris Help Shape Jazz? A Curious Connection Across the Atlantic
 
-date: 2021-11-02 11:58:47 +07:00
-modified: 2020-02-02 16:49:47 +07:00
-tags: [unix/linux, cli]
-description: Shell adalah sebuah command-line interpreter; program yang berperan sebagai penerjemah perintah yang diinputkan oleh User yang melalui terminal, sehingga perintah tersebut bisa dimengerti oleh si Kernel.
-image: "/apa-itu-shell/shell_evolution.png"
+date: 2024-09-26 23:04:00 +07:00
+tags: [jazz, history, paris, music]
+description: Exploring the surprising connection between Paris and the birth of jazz in New Orleans.
 ---
 
-<a href="http://www.youtube.com/watch?v=tc4ROCJYbm0&t=70" target="_blank" rel="noopener">Dulu</a> Sebelum adanya <abbr title="Graphical User Interface">GUI</abbr> cara user berinteraksi dengan komputer menggunakan <abbr title="Command Line Interface">CLI</abbr> yaitu mengetik baris perintah pada sebuah antarmuka dalam bentuk baris teks seperti 👇.
-
 <figure>
-<img src="/apa-itu-shell/terminal_nginx.gif" alt="installing nginx in ubuntu">
-<figcaption>Fig 1. Terminal emulator, instalasi package dan check service.</figcaption>
+<img src="/apa-itu-shell/blue-note-jazzmen-yellowkorner.jpg" alt="blue note jazzmen">
+<figcaption>Fig 1. blue note jazzmen.</figcaption>
 </figure>
 
-Jika kamu pernah menggunakan unix/linux mungkin pernah menggunakan program diatas, bahkan mungkin setiap hari menggunakannya untuk mengeksekusi suatu perintah melalui <a href="http://en.wikipedia.org/wiki/List_of_terminal_emulators" target="_blank" rel="noopener">terminal emulator</a>.
+I grew up in Paris, a city that shaped me in so many ways. At the same time, I’ve always been drawn to the spirit of jazz—especially New Orleans jazz and cool jazz. So, naturally, I found myself wondering: could there be a link between jazz and Paris? It turns out, there just might be! Paris could have played a surprising role in what eventually became jazz in New Orleans.
 
-User<sup id="user">[[1]](#user-ref)</sup> tidak bisa secara langsung berkomunikasi dengan sebuah hardware komputer, maka dari itu kita membutuhkan sebuah sistem operasi; **Kernel** adalah program yang merupakan inti utama dari sistem operasi komputer.
+To understand this connection, we need to go back to the late 19th century. Around this time, European music education underwent a significant shift—improvisation was removed from the curriculum in classical music schools. Before this change, improvisation was a common skill among musicians like Bach, Mozart, Beethoven, Chopin, Haydn, and Liszt. All of them could take a melody and spin it into something new on the spot. But then, the role of the composer became dominant, and musicians turned into more rigid interpreters of written scores.
 
-<figure>
-<img src="/apa-itu-shell/kernel.png" alt="kernel central of operating system">
-<figcaption>Fig 2. bagan kernel.</figcaption>
-</figure>
+Yet music, as a living art, doesn't like to stay confined. And so, it made its way across the Atlantic and found a new voice. Jazz emerged as a unique blend of African musical traditions with European structures—bringing improvisation back to center stage. While we often trace jazz’s birth to early 20th-century New Orleans, specifically the Storyville district, the roots might extend much further back—to 18th-century Paris.
 
-Kernel memfasilitasi interaksi antara komponen perangkat keras dan perangkat lunak, berperan untuk menangani permintaan input/ouput dari perangkat lunak, selanjutnya menerjemahkannya ke dalam pemrosesan data untuk diintruksikan ke CPU, sehingga Hardware(cpu, memory, devices) mengerti perintah yang dimaksud dari pengguna.
+The unlikely story begins on July 28, 1794, at Place de la Concorde in Paris. On this day, Maximilien Robespierre, a key figure of the French Revolution, was executed by guillotine, marking the end of the "Reign of Terror." The next day, Paris celebrated. Shops reopened, people filled the streets, and a new kind of energy flowed through the city. In the Tuileries Garden, young Parisians invented a lively new dance to a playful, improvisational style of music.
 
-Ketika kita menginputkan suatu perintah pada terminal emulator, kernel tidak langsung mengerti perintah yang kita ketik, kita membutuhkan suatu interface sebagai perantara menuju kernel yaitu **Shell**.
+This dance, full of joy and liberation, quickly became popular throughout France—and eventually made its way to French colonies, including Louisiana. The dance became known as the *quadrille des Tuileries*. When French plantation owners brought this dance to Louisiana, they performed it in front of enslaved Africans, who initially found it amusing and even imitated it as a way of mocking their masters. Over time, this imitation evolved into something entirely new: the *cakewalk*, a dance that combined the European quadrille with African rhythms.
 
-<figure>
-<img src="/apa-itu-shell/shell.png" alt="shell">
-<figcaption>Fig 3. bagan komunikasi shell.</figcaption>
-</figure>
-
-<mark>Shell adalah sebuah command-line interpreter; program yang berperan sebagai penerjemah perintah yang diinputkan oleh User yang melalui terminal</mark>, sehingga perintah tersebut bisa dimengerti oleh si Kernel.
-
-Login shell biasanya ditetapkan oleh local System Administrator ketika pada saat pertama user kamu dibuat, kamu bisa lihat login shell yang sedang kamu gunakan dengan perintah dibawah ini.
-
-```bash
-$ echo $SHELL
-# atau
-$ echo $0
-```
-
-Setiap shell mempunyai default prompt. beberapa shell yang paling umum:
-
-```bash
-$ (dollar sign)   # sh, ksh, bash
-% (percent sign)  # csh, tcsh
-```
-
-##### Terminologi pada shell prompt
-
-Shell prompt adalah tempat dimana kita menuliskan suatu perintah, berikut adalah terminologinya ini membantu, jika kamu ingin mengetahui bagian-bagianya.
+Fast forward to 1900, in a brothel in Storyville, New Orleans, where a pianist plays a lively version of the cakewalk. The tune? It might remind you of Scott Joplin's *The Entertainer*. This blend of African and European influences, born out of the improvisational spirit, found fertile ground in the vibrant nightlife of Storyville, giving birth to a new style of music.
 
 <figure>
-<img src="/apa-itu-shell/term_shell_prompt.png" alt="shell">
-<figcaption>Fig 4. bagian-bagin dari shell prompt.</figcaption>
+<img src="/apa-itu-shell/from_jass_to_jazz.png" alt="from jass to jazz">
+<figcaption>Fig 2. from jass to jazz.</figcaption>
 </figure>
 
-Dibawah ini salah satu contoh perintah sederhana untuk menampilkan sebuah arsitektur CPU komputer yang sedang saya gunakan.
+But there's more to the story. As these musical influences spread through the brothels of Storyville, a new word entered the scene: *jazz*. According to one story, the term may have originated from the perfume that women in the brothels used—Jasmine. They would sing out, “Jaaaaasmine, Jaaaasmine,” to attract clients, and the word stuck. In fact, early records even labeled this music as “Jas Band” or “Jass Band.” Eventually, the "s" was replaced by a "z" to avoid cheeky graffiti artists who would alter the posters to read “ass music.” And so, the music and the name evolved together.
 
 <figure>
-<img src="/apa-itu-shell/terminal_lscpu.gif" alt="installing nginx in ubuntu">
-<figcaption>Fig 5. menampilkan informasi tentang arsitektur CPU.</figcaption>
+<img src="/apa-itu-shell/new_orleans_storyville.png" alt="Storyville (New Orleans)">
+<figcaption>Fig 3. Storyville (New Orleans).</figcaption>
 </figure>
 
-Dari perintah yang contohkan, ketika user mengetikan suatu inputan perintah di terminal dan menekan <kbd>ENTER</kbd>, maka shell akan mengubah perintah user menjadi bahasa yang bisa dipahami oleh kernel, dan Kernel menerjemahkannya ke dalam pemrosesan data untuk diintruksikan ke Hardware sehingga menghasilkan output yg sesuai dengan perintah user.
+Could Paris and its dance of liberation have played a role in shaping the early rhythms and spirit of jazz? It’s possible! The transatlantic journey of music is full of unexpected twists, and this one might just connect the City of Light with the soulful sounds of New Orleans.
 
-Shell mempunyai beberapa macam dan turunan, berikut yang paling umum.
+---
 
-<figure>
-<img src="/apa-itu-shell/shell_evolution.png" alt="shell evolution">
-<figcaption>Fig 6. evaluasi shell dari tahun ke tahun.</figcaption>
-</figure>
-
-Sedikit penjelasan dari gambar diatas.
-
-- Bourne shell `sh`
-  Dikembangkan oleh Stephen Bourne di Bell Labs, yang kala itu sebagai pengganti Thompson shell(diciptakan Ken Thompson), banyak sistem unix-like tetap memiliki `/bin/sh`—yang mana menjadi symbolic link atau hard link, bahkan ketika shell lain yang digunakan tetap `sh` adalah sebagai dasarnya, sebagai kompatibilitas perintah.
-- Korn shell `ksh` Unix shell yang dikembangkan oleh David Korn di Bell Labs,
-  inisialiasi pengembangan ini berdasar pada source code Bourne shell, namun juga memiliki fitur `csh` dan `sh`, pengembanganya pun pada saat saya menulis ini pun terus <a href="http://github.com/att/ast" target="_blank" rel="noopener">terawat</a>.
-- Bourne again shell `bash`
-  adalah proyek ini open source <a href="http://gnu.org/software/bash/" target="_blank" rel="noopener">GNU project</a> memilki kompatibel dengan `sh` yang menggabungkan fitur penting dari `ksh` dan `csh`, dan menjadi salah satu shell yang paling umum digunakan (umumnya menjadi default shell login Linux dan Apple's macOS Mojave).
-- Z shell `zsh` ini mempunyai wadah komunitasnya disebutnya <a href="http://ohmyz.sh/"  target="_blank" rel="noopener">"Oh My Zsh"</a>, plug-in dan theme `zsh` bisa kita temukan di komunitas ini, saya saat ini menggunakan `zsh`, shell ini juga menjadi default dari sistem operasi macOS Catalina, yang menggantikan bash.
-- friendly interactive shell `fish`
-  yah sesuai dengan <a href="http://fishshell.com/" target="_blank" rel="noopener">deskripsi</a> di web nya, menurut saya shell ini fun banget, fitur yang saya sukai dari shell ini autosuggestions, dan konfigurasi yang mudah melalui web based.
-
-Masih banyak yang belum dijelaskan pada tulisan ini jika masih tertarik, baca lebih <a href="http://en.wikipedia.org/wiki/List_of_command-line_interpreters#Operating_system_shells" target="_blank" rel="noopener">banyak</a> dan juga <a href="http://en.wikipedia.org/wiki/Comparison_of_command_shells" target="_blank" rel="noopener">komparasinya</a> masing-masing shell.
-
-Jika kamu tertarik untuk mengubah default shell login pada sistem operasi, kamu bisa menginstall dengan cara mengikuti didokumentasi/cara penginstallan dimasing-masing shell disini saya tidak membahas karena distro yang kita pakai mungkin berbeda-beda.
-
-Untuk menjadikan default shell login pada OS bisa menggunakan perintah ini.
-
-```bash
-# command
-$ sudo chsh [options] [LOGIN]
-
-# contoh penggunaan
-$ sudo chsh -s /user/bin/zsh harpi
-# mengubah default shell user harpi menjadi zsh shell.
-$ reboot
-
-# atau kamu juga bisa mengubah file /etc/passwd dan edit secara manual user shellnya.
-# jika masih bingung manfaatkan perintah man untuk melihat manual page.
-$ man chsh
-```
-
-Terakhir untuk tulisan ini, shell memilki berbagai macam, pilihlah shell yang sesuai dengan keinginanmu untuk menunjang produktivitas dan sesuaikan dengan kebutuhan, terlalu banyak plugin dan kebingungan memilih tema itu buruk 😁.
-
-Terimakasih sudah baca, _penulis menerima kritik dan saran._
-
-##### Notes
-
-<small id="user-ref"><sup>[[1]](#user)</sup> Manusia yang mengoperasikan dan mengendalikan sistem komputer.</small>
-
-##### Resources
-
-- [Evolution shells in Linux](http://developer.ibm.com/tutorials/l-linux-shells/)
-- [Kernel Defintion](http://www.linfo.org/kernel.html)
-- [The Shell](http://www.cis.rit.edu/class/simg211/unixintro/Shell.html)
