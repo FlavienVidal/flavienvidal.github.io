@@ -7,7 +7,7 @@ description: Exploring the surprising connection between Paris and the birth of 
 ---
 
 <figure>
-<img src="shell.png" alt="blue note jazzmen">
+<img src="./shell.png" alt="blue note jazzmen">
 <figcaption>Fig 1. blue note jazzmen.</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ This dance, full of joy and liberation, quickly became popular throughout France
 Fast forward to 1900, in a brothel in Storyville, New Orleans, where a pianist plays a lively version of the cakewalk. The tune? It might remind you of Scott Joplin's *The Entertainer*. This blend of African and European influences, born out of the improvisational spirit, found fertile ground in the vibrant nightlife of Storyville, giving birth to a new style of music.
 
 <figure>
-<img src="apa-itu-shell/from_jass_to_jazz.png" alt="from jass to jazz">
+<img src="/Users/flavienvidal/flavienvidal.github.io/_posts/apa-itu-shell/from_jass_to_jazz.png" alt="from jass to jazz">
 <figcaption>Fig 2. from jass to jazz.</figcaption>
 </figure>
 
