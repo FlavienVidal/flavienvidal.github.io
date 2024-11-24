@@ -7,7 +7,7 @@ description: Exploring the surprising connection between Paris and the birth of 
 ---
 
 <figure>
-<img src="apa-itu-shell/shell.png" alt="blue note jazzmen">
+<img src="shell.png" alt="blue note jazzmen">
 <figcaption>Fig 1. blue note jazzmen.</figcaption>
 </figure>
 
